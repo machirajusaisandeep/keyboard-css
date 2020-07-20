@@ -6,193 +6,253 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Css Keyboard</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
 
-    <div class="key_row">
-        <ul class="functional_header_list">
-            <li class="key_group">
-                <ul>
-                    <li id="escape">Esc</li>
-                </ul>
-            </li>
-            <li class="key_group">
-                <ul>
-                    <li>F1</li>
-                    <li>F2</li>
-                    <li>F3</li>
-                    <li>F4</li>
-                </ul>
-            </li>
-            <li class="key_group">
-                <ul>
-                    <li>F5</li>
-                    <li>F6</li>
-                    <li>F7</li>
-                    <li>F8</li>
-                </ul>
-            </li>
-            <li class="key_group">
-                <ul>
-                    <li>F9</li>
-                    <li>F10</li>
-                    <li>F11</li>
-                    <li>F12</li>
-                </ul>
-            </li>
-            <li class="key_group">
-                <ul class="side_pad_row">
-                    <li>prntsc</li>
-                    <li>scrlk</li>
-                    <li>pause</li>
-                </ul>
-            </li>
-            <li class="key_group">
-                <ul class="num_pad_row">
-                    <li>vol up</li>
-                    <li>vol down</li>
-                    <li>mute</li>
-                    <li>calc</li>
-                </ul>
-            </li>
-        </ul>
+    <div class="keyboard" id="keyboard">
+        <div class="key_row">
+            <ul class="functional_header_list">
+                <li class="key_group">
+                    <ul>
+                        <li id="escape">Esc</li>
+                    </ul>
+                </li>
+                <li class="key_group">
+                    <ul>
+                        <li>F1</li>
+                        <li>F2</li>
+                        <li>F3</li>
+                        <li>F4</li>
+                    </ul>
+                </li>
+                <li class="key_group">
+                    <ul>
+                        <li>F5</li>
+                        <li>F6</li>
+                        <li>F7</li>
+                        <li>F8</li>
+                    </ul>
+                </li>
+                <li class="key_group">
+                    <ul>
+                        <li>F9</li>
+                        <li>F10</li>
+                        <li>F11</li>
+                        <li>F12</li>
+                    </ul>
+                </li>
+                <li class="key_group">
+                    <ul class="side_pad_row">
+                        <li>prntsc</li>
+                        <li>scrlk</li>
+                        <li>pause</li>
+                    </ul>
+                </li>
+                <li class="key_group">
+                    <ul class="num_pad_row">
+                        <li><i class="fa fa-volume-up" aria-hidden="true"></i>
+                        </li>
+                        <li><i class="fa fa-volume-down" aria-hidden="true"></i>
+                        </li>
+                        <li><i class="fa fa-volume-off" aria-hidden="true"></i>
+                        </li>
+                        <li><i class="fa fa-calculator" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="key_row">
+            <ul class="functional_header_list">
+                <li class="key_group">
+                    <ul class="num_row">
+                        <li>`
+                            <span class="alternate_val">~</span>
+                        </li>
+                        <li>1
+                            <span class="alternate_val">!</span>
+                        </li>
+                        <li>2
+                            <span class="alternate_val">@</span>
+                        </li>
+                        <li>3
+                            <span class="alternate_val">#</span>
+                        </li>
+                        <li>4
+                            <span class="alternate_val">$</span>
+                        </li>
+                        <li>5
+                            <span class="alternate_val">%</span>
+                        </li>
+                        <li>6
+                            <span class="alternate_val">^</span>
+                        </li>
+                        <li>7
+                            <span class="alternate_val">&</span>
+                        </li>
+                        <li>8
+                            <span class="alternate_val">*</span>
+                        </li>
+                        <li>9
+                            <span class="alternate_val">(</span>
+                        </li>
+                        <li>0
+                            <span class="alternate_val">)</span>
+                        </li>
+                        <li>
+                            <span class="alternate_val">_</span>-
+                        </li>
+                        <li>
+                            <span class="alternate_val">+</span>=
+                        </li>
+                        <li id="backspace">backspace</li>
+                    </ul>
+                    <ul class="num_row">
+                        <li id="tab_space">Tab</li>
+                        <li>Q</li>
+                        <li>W
+                            <span class="alternate_val">
+                                <i class="fa fa-chevron-up" aria-hidden="true">
+                                </i>
+                            </span>
+                        </li>
+                        <li>E</li>
+                        <li>R</li>
+                        <li>T</li>
+                        <li>Y</li>
+                        <li>U</li>
+                        <li>I</li>
+                        <li>O</li>
+                        <li>P</li>
+                        <li>[</li>
+                        <li>]</li>
+                        <li id="pipe_char">|</li>
+                    </ul>
+                    <ul class="num_row">
+                        <li id="caps_lock">Caps lck</li>
+                        <li>A <span class="alternate_val">
+                                <i class="fa fa-chevron-left" aria-hidden="true">
+                                </i>
+                            </span> </li>
+                        <li>S
+                            <span class="alternate_val">
+                                <i class="fa fa-chevron-down" aria-hidden="true">
+                                </i>
+                            </span>
+                        </li>
+                        <li>D <span class="alternate_val">
+                                <i class="fa fa-chevron-right" aria-hidden="true">
+                                </i>
+                            </span> </li>
+                        <li>F</li>
+                        <li>G</li>
+                        <li>H</li>
+                        <li>J</li>
+                        <li>K</li>
+                        <li>L</li>
+                        <li>;</li>
+                        <li>'</li>
+                        <li id="enter">enter</li>
+
+                    </ul>
+                    <ul class="num_row">
+                        <li class="shift">shift</li>
+                        <li>Z</li>
+                        <li>X</li>
+                        <li>C</li>
+                        <li>V</li>
+                        <li>B</li>
+                        <li>N</li>
+                        <li>M</li>
+                        <li>&lt;</li>
+                        <li>&gt;</li>
+                        <li>?</li>
+                        <li class="shift">shift</li>
+
+                    </ul>
+                    <ul class="num_row">
+                        <li class="control">CTRL</li>
+                        <li>w</li>
+                        <li>alt</li>
+                        <li id="space">space</li>
+                        <li>alt</li>
+                        <li>fn</li>
+                        <li><i class="fa fa-list-alt" aria-hidden="true"></i>
+                        </li>
+                        <li class="control">CTRL</li>
+
+                    </ul>
+                </li>
+                <li class="key_group">
+                    <ul class="side_pad_row">
+                        <li>ins</li>
+                        <li>home</li>
+                        <li>pg up</li>
+                    </ul>
+                    <ul class="side_pad_row">
+                        <li>del</li>
+                        <li>end</li>
+                        <li>pg dn</li>
+                    </ul>
+                    <ul class="side_pad_row pos_num_pad_1">
+                        <li class="no_key"></li>
+                        <li><i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </li>
+                        <li class="no_key"> </li>
+                    </ul>
+                    <ul class="side_pad_row pos_num_pad_2">
+                        <li><i class="fa fa-chevron-left" aria-hidden="true">
+                            </i>
+                        </li>
+                        <li><i class="fa fa-chevron-down" aria-hidden="true">
+                            </i></li>
+                        <li><i class="fa fa-chevron-right" aria-hidden="true">
+                            </i></li>
+                    </ul>
+                </li>
+                <li class="key_group">
+                    <ul class="num_pad_row">
+                        <li>num lck</li>
+                        <li>/</li>
+                        <li>*</li>
+                        <li>-</li>
+                    </ul>
+                    <ul class="num_pad_row">
+                        <li>7 </li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li class="num_pad_lg">+</li>
+                    </ul>
+                    <ul class="num_pad_row pos_num_pad">
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                    </ul>
+                    <ul class="num_pad_row">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li class="num_pad_lg">enter</li>
+                    </ul>
+                    <ul class="num_pad_row pos_num_pad_2">
+                        <li id="num_pad_0">0</li>
+                        <li>del</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 
-    <div class="key_row">
-        <ul class="functional_header_list">
-            <li class="key_group">
-                <ul class="num_row">
-                    <li>.</li>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
-                    <li>8</li>
-                    <li>9</li>
-                    <li>0</li>
-                    <li>-</li>
-                    <li>+</li>
-                    <li id="backspace">&lt;-</li>
-                </ul>
-                <ul class="num_row">
-                    <li id="tab_space">tab</li>
-                    <li>Q</li>
-                    <li>W</li>
-                    <li>E</li>
-                    <li>R</li>
-                    <li>T</li>
-                    <li>Y</li>
-                    <li>U</li>
-                    <li>I</li>
-                    <li>O</li>
-                    <li>P</li>
-                    <li>[</li>
-                    <li>]</li>
-                    <li id="pipe_char">|</li>
-                </ul>
-                <ul class="num_row">
-                    <li id="caps_lock">caps lck</li>
-                    <li>A</li>
-                    <li>S</li>
-                    <li>D</li>
-                    <li>F</li>
-                    <li>G</li>
-                    <li>H</li>
-                    <li>J</li>
-                    <li>K</li>
-                    <li>L</li>
-                    <li>;</li>
-                    <li>'</li>
-                    <li id="enter">enter</li>
-                    
-                </ul>
-                <ul class="num_row">
-                    <li class="shift">shift</li>
-                    <li>Z</li>
-                    <li>X</li>
-                    <li>C</li>
-                    <li>V</li>
-                    <li>B</li>
-                    <li>N</li>
-                    <li>M</li>
-                    <li>&lt;</li>
-                    <li>&gt;</li>
-                    <li>?</li>
-                    <li class="shift">shift</li>
-                    
-                </ul>
-                <ul class="num_row">
-                    <li >ctrl</li>
-                    <li>w</li>
-                    <li>alt</li>
-                    <li id="space">space</li>
-                    <li>alt</li>
-                    <li>fn</li>
-                    <li>list</li>
-                    <li >ctrl</li>
-                    
-                </ul>
-            </li>
-            <li class="key_group">
-                <ul class="side_pad_row">
-                    <li>ins</li>
-                    <li>home</li>
-                    <li>pg up</li>
-                </ul>
-                <ul class="side_pad_row">
-                    <li>del</li>
-                    <li>end</li>
-                    <li>pg dn</li>
-                </ul>
-                <ul class="side_pad_row pos_num_pad_1">
-                    <li class="no_key"></li>
-                    <li>&uarr;</li>
-                    <li class="no_key"> </li>
-                </ul>
-                <ul class="side_pad_row pos_num_pad_2">
-                    <li>&larr;</li>
-                    <li>&darr;</li>
-                    <li>&rarr;</li>
-                </ul>
-            </li>
-            <li class="key_group">
-                <ul class="num_pad_row">
-                    <li>num lck</li>
-                    <li>/</li>
-                    <li>*</li>
-                    <li>-</li>
-                </ul>
-                <ul class="num_pad_row">
-                    <li>7 </li>
-                    <li>8</li>
-                    <li>9</li>
-                    <li class="num_pad_lg">+</li>
-                </ul>
-                <ul class="num_pad_row pos_num_pad">
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
-                </ul>
-                <ul class="num_pad_row">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li class="num_pad_lg">enter</li>
-                </ul>
-                <ul class="num_pad_row pos_num_pad_2">
-                    <li id="num_pad_0">0</li>
-                    <li>del</li>
-                </ul>
-            </li>
-        </ul>
+    <div class="controls">
+        <span>Controls :</span>
+       <label> <input type="checkbox" id="gradient_box" onclick="addGradient();"> Add RGB</label>
     </div>
-    
+
 </body>
 
 </html>
