@@ -5,7 +5,6 @@ body{
 
 .functional_header_list {
     display: flex;
-    border: 1px solid #cecece;
     margin: 0.5rem;
     padding: 0;
     justify-content: space-between;
@@ -28,8 +27,78 @@ body{
     padding: 10px;
     height: 2rem;
     padding: 10px;
-}
-#backspace{
-    width: 100px;
     text-align: center;
+}
+.num_pad_row{
+    align-items: flex-start !important;
+}
+.num_row li{
+    width:1.8rem;
+}
+.num_pad_row li{
+    width:2rem;
+}
+.side_pad_row li{
+    width:3rem;
+}
+
+#escape{
+    width:2rem;
+    text-align: center;
+}
+
+#backspace{
+    width:5.5rem;
+    text-align: center;
+}
+
+#tab_space{
+    width:3.5rem;
+    text-align: center;
+}
+#pipe_char{
+    width:3.8rem;
+    text-align: center;
+}
+
+.num_pad_lg{
+    height: 5.5rem !important;
+    text-align: center;
+}
+#caps_lock{
+    width:4.5rem;
+    text-align: center;
+}
+
+#enter{
+    width:6rem;
+    text-align: center;
+}
+#space{
+    width:25.2rem;
+    text-align: center;
+}
+.shift{
+    width:6.9rem !important;
+    text-align: center;
+}
+#num_pad_0{
+    width:5.5rem;
+    text-align: center;
+}
+.pos_num_pad{
+    position: absolute;
+    top: 11rem;
+}
+.pos_num_pad_1{
+    position: absolute;
+    top: 14.5rem;
+    text-align: center;
+}
+.pos_num_pad_2{
+    position: absolute;
+    top: 18rem;
+}
+.no_key{
+    border:none !important;
 }
