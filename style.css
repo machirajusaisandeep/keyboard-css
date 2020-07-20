@@ -3,7 +3,7 @@ body {
 }
 
 .keyboard {
-    border: 1px solid;
+    border: 1px solid #d2d2d2;
     margin: 10px;
   
 }
@@ -46,11 +46,11 @@ body {
 }
 
 .key_group li:hover {
-    background-color: #22358087;
+    background-color: #33228087;
     color:black;
-    -webkit-box-shadow: 10px 6px 16px 31px rgba(136, 235, 187, 0.35);
-    -moz-box-shadow: 10px 6px 16px 31px rgba(136, 235, 187, 0.35);
-    box-shadow: 10px 6px 16px 31px rgba(136, 235, 187, 0.35);
+    -webkit-box-shadow: 10px 6px 16px 31px rgba(129, 199, 165, 0.233);
+    -moz-box-shadow:10px 6px 16px 31px rgba(129, 199, 165, 0.233);
+    box-shadow: 10px 6px 16px 31px rgba(129, 199, 165, 0.233);
 }
 
 .num_pad_row {
